@@ -1,0 +1,60 @@
+.edu-cat{
+    margin-top: 25px;
+    /* background-color:rgb(0, 0, 0); */
+    background-color: rgba(100, 211, 26, 0.794);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+}
+.edu-left{
+    width: 35vw;
+    height: 80vh;
+    text-align: center;
+}
+.show-edu{
+    top: 10px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.edu-left img{
+    position: relative;
+    margin-top: 38px;
+    width: 300px ;
+    height: 300px;
+    border-radius: 100%;
+    border: 4px solid white;
+    box-shadow: 10px 10px 100px lightgreen;
+}
+.edu-right{
+    padding: 20px;
+    width: 60vw;
+    height: 74.2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+.education{
+    color: rgb(13, 102, 21);
+    display: flex;
+    align-items: center;
+}
+.edu-logo{
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    height: 20vh;
+}
+.edu-logo img{
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+}
+.edu-detail{
+    line-height: 15px;
+    height: 20vh;
+}
